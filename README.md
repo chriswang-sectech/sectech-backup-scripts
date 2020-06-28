@@ -2,15 +2,14 @@
 
 Backup SecTech materials
 
-POC Script to document my testing.
+POC Script to backup the files in the production server. Please use it as an interim solution for now.
 
 ## How To
-
-My account `chrisw`:`7cj5dvv4uhBRLIpMNPeT`
 
 ### Login into the instance
 
 ``` bash
+# PLEASE USE YOUR ACCOUNT!
 ssh chrisw@sec-tech.cf -p 8822
 # Enter your password!
 ```
@@ -19,9 +18,9 @@ ssh chrisw@sec-tech.cf -p 8822
 
 ``` bash
 vim backup.sh
-# Copy and paste the script in
-# and save
-# Use any other in terminal text-editor if you like
+# Copy and paste the script into the terminal, then save.
+# Use any other terminal text-editor that you like.
+# vim is just one of the many.
 ```
 
 ### Run the script
